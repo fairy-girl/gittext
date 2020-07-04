@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/p1" />
+
+    <TextView
+        android:id="@+id/goodNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/img"
+        android:text="名称"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:id="@+id/goodPriceTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goodNameTV"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="179dp"
+        android:layout_toEndOf="@+id/img"
+        android:text="价格"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/minTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="140dp"
+        android:text="-"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/countTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="110dp"
+        android:text="0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/addTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="80dp"
+        android:text="+"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="56dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:text="删除" />
+
+</RelativeLayout>
+
+

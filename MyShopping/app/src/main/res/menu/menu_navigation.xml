@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_homepage"
+        android:icon="@drawable/homepage_selector"
+        android:title="首页"
+        />
+    <item
+        android:id="@+id/menu_menu"
+        android:icon="@drawable/menupage_selector"
+        android:title="菜单"
+        />
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/cartpage_selector"
+        android:title="购物车"
+        />
+
+</menu>
